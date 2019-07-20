@@ -1,296 +1,237 @@
-<html>
-<head>
-  <title>Travel Website</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <meta name="viewport" content="width=device-width ,initial-scale=1.0 ">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  </head>
-  <body>
-<section class="header">
-  <div class="container">
-    <img src="images/logo1.png">
-    <button type="button" class="login-btn">LOGIN</button>
-    </div>
-    <h1>Travel Across Globe</h1>
-    <p>Suscribe For More Details<p>
-      <div class="input-group">
-        <input type="text" class="form-control" placeholder="Search Country or City">
-        <div class="input-group-append" >
-          <button type="submit" class="input-group-text btn">Search</button>
-          </div>
-      </div>
+*{
+  padding:0;
+  margin: 0;
+}
 
-  </section >
-  <section class="feature">
-    <h1>Feature Destination</h1>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="feature-box">
-            <div class="feature-img">
-              <img src="images/banner11.jpg" height="300px" width="30 0px">
+.header{
+  height:100%;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("images/banner1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 20px;
+  text-align: center;
+  color:#fff;
 
-              <div class="price">
-                <p>$84</p>
-                </div>
+}
+.header img{
+  width:150px;
+  float:left;
+}
 
-                <div class="rating">
-                  <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star-half-o"></i>
-                              <i class="fa fa-star-o"></i>
+.login-btn{
+  width:100px;
+  padding:8px 0;
+  outline: none !important;
+  border:2px solid #fff;
+  border-radius:50px;
+  background:transparent;
+  color:#fff;
+  float:right;
 
-                  </div>
-            </div>
-            <div class="feature-details">
-              <h4>Agra</h4>
-              <p>Taj Mahal is the Most Beautiful and One of Seven Wonder Of The World.</p>
-              <div>
-                <span>  <i class="fa fa-map-marker"></i>Rajasthan</span>
-                <span>  <i class="fa fa-sun-o"></i>5 days</span>
-                <span>  <i class="fa fa-moon-o"></i>4 Nights</span>
-                </div>
-              </div>
-            </div>
+}
 
-        </div>
-    <div class="col-md-4">
-      <div class="feature-box">
-        <div class="feature-img">
-          <img src="images/banner6.jpg" height="300px" width="30 0px">
+.header h1{
+  padding-top: 260px;
+  padding-bottom: 0;
+  font-size: 55px;
 
-          <div class="price">
-            <p>$78</p>
-            </div>
+}
 
-            <div class="rating">
-              <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star-half-o"></i>
-                          <i class="fa fa-star-o"></i>
-
-              </div>
-        </div>
-        <div class="feature-details">
-          <h4>Rajasthan</h4>
-          <p>Hawa Mahal  the art of Vintage Rajput Style, known for its most
-            numbers of windows.</p>
-          <div>
-            <span>  <i class="fa fa-map-marker"></i>Rajasthan</span>
-            <span>  <i class="fa fa-sun-o"></i>5 days</span>
-            <span>  <i class="fa fa-moon-o"></i>4 Nights</span>
-            </div>
-          </div>
-        </div>
-
-    </div>
-    <div class="col-md-4">
-      <div class="feature-box">
-        <div class="feature-img">
-          <img src="images/banner12.jpg" height="300px" width="30 0px">
-
-          <div class="price">
-            <p>$73</p>
-            </div>
-
-            <div class="rating">
-              <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star-half-o"></i>
-                          <i class="fa fa-star-o"></i>
-
-              </div>
-        </div>
-        <div class="feature-details">
-          <h4>Manali</h4>
-          <p>Feel India's Most chilling place of all time , Manali.</p>
-          <div>
-            <span>  <i class="fa fa-map-marker"></i>Manali</span>
-            <span>  <i class="fa fa-sun-o"></i>6 days</span>
-            <span>  <i class="fa fa-moon-o"></i>5 Nights</span>
-            </div>
-          </div>
-        </div>
-
-    </div>
-    <div class="col-md-4">
-      <div class="feature-box">
-        <div class="feature-img">
-          <img src="images/banner13.jpg" height="300px" width="30 0px">
-
-          <div class="price">
-            <p>$90</p>
-            </div>
-
-            <div class="rating">
-              <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                          <i class="fa fa-star"></i>
-                          <i class="fa fa-star-half-o"></i>
-                          <i class="fa fa-star-o"></i>
-
-              </div>
-        </div>
-        <div class="feature-details">
-          <h4>Goa</h4>
-          <p> Experience India's One of the Most Beautiful Beaches in Goa. </p>
-          <div>
-            <span>  <i class="fa fa-map-marker"></i>Goa</span>
-            <span>  <i class="fa fa-sun-o"></i>4 days</span>
-            <span>  <i class="fa fa-moon-o"></i>3 Nights</span>
-            </div>
-          </div>
-        </div>
-
-    </div>
-      <div class="col-md-4">
-        <div class="feature-box">
-          <div class="feature-img">
-            <img src="images/banner2.jpg" height="300px" width="30 0px">
-
-            <div class="price">
-              <p>$120</p>
-              </div>
-
-              <div class="rating">
-                <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
-                            <i class="fa fa-star-o"></i>
-
-                </div>
-          </div>
-          <div class="feature-details">
-            <h4>Delhi</h4>
-            <p>Aligadh Fort , one of the Finest Creation of Mugals .</p>
-            <div>
-              <span>  <i class="fa fa-map-marker"></i>Delhi</span>
-              <span>  <i class="fa fa-sun-o"></i>6</span>
-              <span>  <i class="fa fa-moon-o"></i>5 Nights</span>
-              </div>
-            </div>
-          </div>
-      </div>
-      <div class="col-md-4">
-        <div class="feature-box">
-          <div class="feature-img">
-            <img src="images/banner5.jpg" height="300px" width="300px">
-
-            <div class="price">
-              <p>$100</p>
-              </div>
-
-              <div class="rating">
-                <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
-                            <i class="fa fa-star-o"></i>
-
-                </div>
-          </div>
-          <div class="feature-details">
-            <h4>Kerala</h4>
-            <p>India's Green valley with Worlds lagrest production of Coconut
-              and Banana's.</p>
-            <div>
-              <span>  <i class="fa fa-map-marker"></i>Kerala</span>
-              <span>  <i class="fa fa-sun-o"></i>5 days</span>
-              <span>  <i class="fa fa-moon-o"></i>4 Nights</span>
-              </div>
-            </div>
-          </div>
-      </div>
-      </div>
-      </div>
-    </section>
-  <section class="gallery">
-    <h1> Travelling Diaries</h1>
-
-    <div class="container">
-    <div class="row">
-      <div class="col-md-3">
-        <div class="gallery-box">
-        <img src="images/banner7.jpg" height="250px" width="100px">
-        <h4>Mumbai</h4>
-        </div>
-      </div>
+.header p{
+  margin: 18px 0px;
+}
 
 
-
-  <div class="col-md-3">
-    <div class="gallery-box">
-    <img src="images/banner8.jpg" height="250px" width="100px">
-    <h4>Punjab</h4>
-    </div>
-  </div>
-
-
-
-  <div class="col-md-3">
-    <div class="gallery-box">
-    <img src="images/banner9.jpg" height="250px" width="100px">
-    <h4>Karnatak</h4>
-    </div>
-  </div>
+.input-group{
+  width:90%;
+  max-width: 500px;
+  border-radius: 30px;
+  background: #fff;
+  margin: auto;
+  padding:2px;
+}
 
 
-
-  <div class="col-md-3">
-    <div class="gallery-box">
-    <img src="images/banner10.jpg" height="250px" width="100px">
-    <h4>Hydrabad</h4>
-    </div>
-   </div>
-</div>
-</div>
-</div>
-</div>
-    </section>
-
-
-    <section class="banner">
-     <div class="banner-highlights">
-       <div class="container">
-         <div class="row">
-            <div class="col-md-8">
-            <h2>Get 15-20% on Top Destination Place</h2>
-            <p>Book your Holidays Now</p>
-            </div>
-            <div class="col-md-4"></div>
-            <button type="button" class="booking-btn">Book Now</button>
-            </div>
-          </div>
-        </div>
-        </section>
-        <section class="footer">
-          <div class="col-md-3">
-            <img src="images/logo1.png" class="footer-logo">
-            </div>
-            <div class="col-md-3">
-           <h4>Feature</h4>
-           <ul>
-           <li>Customer's Reviews</li>
-           <li> Offer's</li>
-           <li>Cancelation Policy</li>
-           </ul>
-             </div>
-              <div class="col-md-3">
-
-              </div>
-                <div class="col-md-3">
-                  <h4>Follow Us</h4>
-                  <p><i class="fa fa-facebook-official" aria-hidden="true"></i>:Facebook</p>
-                  <p><i class="fa fa-twitter-square" aria-hidden="true"></i>Twitter</p>
-                </div>
+.form-control{
+  border:0 !important ;
+  border-radius: 30px !important;
+  margin:2px;
+  box-shadow: none !important;
+}
+.input-group-text{
+width:100px;
+background-image: linear-gradient(#00ff7e,#1f3d90);
+border:0 !important;
+color:#fff !important;
+padding:0 25px !important;
+border-radius: 30px !important;
+box-shadow: none !important;
+}
 
 
-                </section>
+.feature{
+  padding: 100px 0;
 
-    </body>
-    </html>
+}
+
+h1{
+  text-align: center;
+  padding-bottom:30px;
+}
+
+.feature-img img{
+  width:100%;
+
+}
+
+.price{
+  width:50px;
+  height:50px;
+  background:#ff5722;
+  color:#fff;
+  font-weight:600;
+  border-radius: 50%;
+  padding:10px;
+  box-shadow:0 0 10px 1px rgba(37, 73,214, 0.18);
+  position: absolute;
+  left:20px;
+  bottom:-25px;
+
+}
+
+.feature-img{
+  position: relative;
+
+}
+
+.rating{
+  padding:3px;
+  float:right;
+  background:#fff;
+  bottom:-1px;
+  right: 0;
+  position: absolute;
+}
+
+.feature .fa
+{
+  font-size: 15px;
+  color:#e84f1e;
+}
+
+.feature-details{
+  padding:20px;
+  text-align:justify;
+}
+ .feature-details h4{
+   font-weight: 600;
+   margin-top: 20px;
+
+ }
+
+ .feature-details .fa{
+   margin-right: 5px;
+
+ }
+
+ .feature-box{
+   box-shadow: 0 0 10px  1px rgba(37,73,214,0.18);
+   margin-bottom: 30px;
+
+ }
+
+.gallery{
+  padding:100px 0;
+  background-color:#efefef;
+}
+
+.gallery-box img{
+  width:100%;
+  border-radius:30px;
+  cursor: pointer;
+  transition:1s;
+}
+
+.gallery-box img:hover
+{
+
+  transform: scale(1.1);
+}
+.gallery-box h4{
+  display: block;
+  color: #fff;
+  text-shadow: -2px 2px 2px #000;
+  text-align: center;
+  font-weight: 600;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50% -50%);
+
+
+}
+
+.gallery-box {
+  position: relative;
+  margin-bottom: 30px;
+}
+.banner{
+  height:80%;
+  background-image: url(images/banner3.jpg);
+  background-size: cover;
+  background-attachment:fixed;
+  padding-top: 14%;
+}
+
+.banner-highlights{
+  padding:70px 0;
+  background: rgba(0,0,0,0.7);
+  text-align: center;
+  color:#fff;
+
+}
+.booking-btn
+{
+
+  width:120px;
+  padding:8px 0;
+  outline: none !important;
+  border:2px solid #fff;
+  border-radius:50px;
+  background:transparent;
+  color:#fff;
+  margin-top:20px;
+}
+.footer{
+  padding:100px 20px;
+  background-image: linear-gradient(#acb6e5,#86fde8);
+  color:#fff;
+}
+
+.footer-logo{
+  width:150px;
+  margin-top:15px;
+  margin-bottom: 15px;
+}
+.footer h4{
+  color:black;
+}
+.footer ul{
+  color: black;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 25px;
+
+}
+
+.footer li{
+  font-size: 15px;
+  color: black;
+  font-size: 12px;
+  text-align:justify;
+  padding-right: 35px;
+}
+ .footer p{
+   color:black;
+ }

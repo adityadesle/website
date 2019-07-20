@@ -193,18 +193,15 @@ h1{
 }
 .booking-btn
 {
-  float:right;
-  width:100px;
+
+  width:120px;
   padding:8px 0;
   outline: none !important;
   border:2px solid #fff;
   border-radius:50px;
   background:transparent;
   color:#fff;
-
-
-
-
+  margin-top:20px;
 }
 .footer{
   padding:100px 20px;
