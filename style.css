@@ -193,6 +193,7 @@ h1{
 }
 .booking-btn
 {
+  float:right;
   width:100px;
   padding:8px 0;
   outline: none !important;
@@ -200,7 +201,7 @@ h1{
   border-radius:50px;
   background:transparent;
   color:#fff;
-  float:right;
+
 
 
 
