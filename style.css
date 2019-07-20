@@ -1,9 +1,12 @@
 *{
   padding:0;
   margin: 0;
+  font-family:fantasy;
+
 }
 
 .header{
+
   height:100%;
   background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("images/banner1.jpg");
   background-size: cover;
@@ -44,7 +47,7 @@
 
 
 .input-group{
-  width:90%;
+  width:90% !important;
   max-width: 500px;
   border-radius: 30px;
   background: #fff;
@@ -206,7 +209,7 @@ h1{
 
 }
 .footer{
-  padding:100px 20px;
+  padding:100px 20px 20px;
   background-image: linear-gradient(#acb6e5,#86fde8);
   color:#fff;
 }
@@ -237,3 +240,21 @@ h1{
  .footer p{
    color:black;
  }
+ .footer .row. .fa{
+   padding-right:20px;
+   font-size:15px;
+ }
+.footer hr{
+   margin-top:10px;
+   background:black;
+}
+
+
+.fa-heart{
+  margin: 0 5px;
+  color:#f44336;
+}
+
+.fa .copyright{
+  text-align: center;
+}
