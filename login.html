@@ -1,0 +1,50 @@
+<html>
+<head>
+  <title> Login Page</title>
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width ,initial-scale=1.0 ">
+
+  </head>
+  <body>
+    <form name="loginForm" method="post" action="login.php">
+    <section class="header">
+      <div class="container">
+        <img src="images/logo1.png">
+
+
+        <div class="login-box">
+          <h1>Login</h1>
+
+
+          <div class="textbox">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <input type="text"  placeholder="Username" name="userid" value="">
+            </div>
+
+
+            <div class="textbox">
+              <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+              <input type="password"  placeholder="Password" name="pwd" value="">
+              </div>
+      <!--      <input class="button" type="submit" name="" value="Sign In"> -->
+            <input class="button" type="submit" onclick="return check(this.form)" value="Sign In">
+         </form>
+          <script language="javascript">
+          function check(form)
+          {
+
+          if(form.userid.value == "TravelBlog" && form.pwd.value == "123456")
+          {
+          	return true;
+          }
+          else
+          {
+          	alert("Error Password or Username")
+          	return false;
+          }
+          }
+          </script>
+
+          </body>
+   </html>
